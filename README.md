@@ -11,8 +11,7 @@ I am using Nasm assember and Qemu simulator.
 
 For Linux, type following commands to install nasm & qemu(Quick Emulator)
 
- **sudo apt-get install nasm**
- **sudo apt-get install qemu qemu-system-x86_64**
+ **sudo apt-get install nasm && sudo apt-get install qemu qemu-system-x86_64**
 
 For Windows,download them from following sites and install them.
 
@@ -33,12 +32,12 @@ For windows, open nasm application, it will prompt a command at location where n
 Perform same commands as performed for linux juts giving full file name path.
 Consider i have file in C:\Users\Pritam\Documents\temp folder.
 
-  nasm.exe -f bin "C:\Users\Pritam\Documents\temp\hello_world.asm" 
-                                                  -o "C:\Users\Pritam\Documents\temp\myos.bin"
+  **nasm.exe -f bin "C:\Users\Pritam\Documents\temp\hello_world.asm" 
+                                                  -o "C:\Users\Pritam\Documents\temp\myos.bin"**
   
   and to run in qemu,
   
-  "C:\Program Files\qemu\qemu-system-x86_64.exe"  "C:\Users\Pritam\Documents\temp\myos.bin"
+  **"C:\Program Files\qemu\qemu-system-x86_64.exe"  "C:\Users\Pritam\Documents\temp\myos.bin"**
   
 where i have installed qemu.
 
